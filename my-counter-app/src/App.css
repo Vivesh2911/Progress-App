@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.progress-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 30px;
+  background-color: #76c7c0;
+  transition: width 0.3s ease-in-out;
+}
+
+.undo-redo-container {
+  margin-top: 20px;
+}
